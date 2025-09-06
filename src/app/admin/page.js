@@ -10,21 +10,7 @@ export default function AdminDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Admin Navbar */}
-      <nav className="bg-red-700 shadow-lg px-6 py-4">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-2xl">eSignDesk Admin</div>
-          <div className="flex items-center space-x-4">
-            <span className="text-white text-sm">Welcome, Administrator</span>
-            <button
-              onClick={handleLogout}
-              className="bg-white text-red-700 font-medium py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors"
-            >
-              Logout
-            </button>
-          </div>
-        </div>
-      </nav>
+      
 
       {/* Admin Dashboard Content */}
       <div className="max-w-7xl mx-auto px-6 py-8">
